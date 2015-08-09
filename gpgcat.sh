@@ -1,8 +1,8 @@
 # copy and paste these into your ~/.bashrc or whatever you source on terminal startup
 # for the lazy bash users:
-# $ curl https://gist.githubusercontent.com/alekratz/fed9fb9db081637d4138/raw >> ~/.bashrc
+# $ curl https://gist.githubusercontent.com/alekratz/fed9fb9db081637d4138/raw | grep '^[^#]' >> ~/.bashrc
 # for the lazy zsh users:
-# $ curl https://gist.githubusercontent.com/alekratz/fed9fb9db081637d4138/raw >> ~/.zshrc
+# $ curl https://gist.githubusercontent.com/alekratz/fed9fb9db081637d4138/raw | grep '^[^#] >> ~/.zshrc
 
 function encat() {
   case $# in
