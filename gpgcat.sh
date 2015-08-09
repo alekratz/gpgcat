@@ -1,3 +1,5 @@
+# copy and paste these into your ~/.bashrc or whatever you source on terminal startup
+
 function encat() {
   case $# in
   0)
